@@ -1,0 +1,34 @@
+{
+  "name": "professional-portfolio",
+  "version": "1.0.0",
+  "description": "A modern, responsive portfolio website for LinkedIn and professional networking",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "python3 -m http.server 8000",
+    "dev": "live-server --port=8000 --open=/index.html"
+  },
+  "keywords": [
+    "portfolio",
+    "website",
+    "responsive",
+    "professional",
+    "linkedin",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/portfolio.git"
+  },
+  "homepage": "https://yourusername.github.io/portfolio",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
